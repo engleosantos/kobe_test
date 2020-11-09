@@ -1,0 +1,19 @@
+"name": "example"
+"summary": "Ola Mundo"
+"maintainer": "Leonardo <Ubuntu@ip-172-31-39-192.us-east-2.compute.internal>"
+"description": |
+  Primeiro Charm
+"tags":
+  # teste
+  # /stable/authors-charm-metadata
+- "tutorials"
+"requires":
+  "requires-relation":
+    "interface": "interface-name"
+"provides":
+  "provides-relation":
+    "interface": "interface-name"
+"peers":
+  "peer-relation":
+    "interface": "interface-name"
+"subordinate": !!bool "false"
